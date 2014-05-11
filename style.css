@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Open Sans"), local("OpenSans"), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format("woff")
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Open Sans Bold"), local("OpenSans-Bold"), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format("woff")
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 16pt
+}
+
+@media only screen and (max-width: 400px) {
+   body { font-size: 70%; }
+}
+
+@media only screen and (max-width: 640px) {
+   body { font-size: 80%; }
+}
+
+h1, h2, h3, h4 {
+    color: #fff;
+}
+
+h1 {
+    font-size: 3.5em;
+    font-weight: 700;
+}
+
+h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.bg {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("bg-bg.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -moz-filter: brightness(55%);
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 640px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+}
+
+#mc-embedded-subscribe-form {
+    color: #fff;
+    margin-top: 30px;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+input#mce-EMAIL.email {
+    height: 50px;
+    width: 70%;
+    max-width: 400px;
+    padding: 7px 15px;
+    display: inline-block;
+    font-weight: bold;
+    background: #fff;
+    font-size: 1em;
+    color: #202020;
+    float: left;
+    margin-top: 30px;
+}
+
+input#mce-EMAIL.email:focus {
+    outline: 0;
+}
+
+input#mc-embedded-subscribe {
+    margin-left: 3%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 27%;
+    max-width: 150px;
+    display: inline-block;
+    height: 50px;
+    padding: 7px 10px;
+    color: #fff;
+    margin-top: 30px;
+    background-color: #202020;
+    border: 2px solid #fff;
+    font-size: 1em;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear
+}
+
+input#mc-embedded-subscribe:hover {
+    background-color: #fff;
+    color: #202020;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear
+}
