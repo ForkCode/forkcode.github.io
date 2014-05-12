@@ -46,6 +46,7 @@ h1 {
 h1 a {
     color: #fff;
     font-size: 1.5em;
+    text-shadow: 2px 2px #111;
 }
 
 h2 {
@@ -75,7 +76,7 @@ a:hover {
 
 .logo {
     margin-top: 50px;
-    margin-bottom: 50px;
+    /*margin-bottom: 50px;*/
 }
 
 p.lead {
@@ -83,10 +84,59 @@ p.lead {
     line-height: 1.5em;
 }
 
+#stuff {
+    height: 50px;
+
+}
+
+.share {
+    display: inline-block;
+    color: #FFF;
+    font-size: 32px;
+    padding-top: 7px;
+    height: 50px;
+    vertical-align: middle;
+    width: 20%;
+    opacity: 1;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.share:hover {
+    opacity: 0.8;
+}
+
+.sbg-facebook {
+    background: #3971B6;
+}
+
+.sbg-twitter {
+    background: #A0D6E2;
+}
+
+.sbg-github {
+    background: #333333;
+}
+
+.sbg-youtube {
+    background-color: #d02525;
+}
+
+.main-content {
+    display: block;
+    margin-top: 30px;
+}
+
+#mc_embed_signup {
+    margin-top: 20px;
+}
+
 #mc-embedded-subscribe-form {
     color: #fff;
-    margin-top: 30px;
-    padding: 20px 20px;
+    padding: 0px 20px;
     text-align: center;
 }
 
@@ -97,7 +147,6 @@ p.lead {
 
 input#mce-EMAIL.email {
     height: 50px;
-    
     padding: 7px 15px;
     display: inline-block;
     font-weight: bold;
@@ -105,7 +154,6 @@ input#mce-EMAIL.email {
     font-size: 1em;
     color: #202020;
     float: left;
-    margin-top: 30px;
 }
 
 input#mce-EMAIL.email:focus {
@@ -113,17 +161,13 @@ input#mce-EMAIL.email:focus {
 }
 
 input#mc-embedded-subscribe {
-    /*margin-left: 3%;*/
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    /*width: 27%;*/
-    /*max-width: 150px;*/
     display: inline-block;
     height: 50px;
     padding: 7px 10px;
     color: #fff;
-    margin-top: 30px;
     background-color: #0074d9;
     border: 2px solid #fff;
     font-size: 1em;
